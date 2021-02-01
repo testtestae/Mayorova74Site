@@ -1,32 +1,36 @@
 .navbar-brand img{
-    height: 3rem;
+    height: 4em;
 }
 
-section{
+.sect{
     height: 100vh;
 }
 
-section:nth-child(2n){
+.sect:nth-child(2n){
     background-color: antiquewhite;
 }
 
-section:nth-child(2n+1){
+.sect:nth-child(2n+1){
     background-color: blueviolet;
 }
-
-.carousel-inner{
-    height: 500px;
-}
+/* 
+.carousel-inner, .carousel{
+    height: 100vh;
+} */
 
 .carousel-inner img{
-    transform: translateY(-30%);
-    width: 100%;
+    /* transform: translateY(-30%); */
     height: 100%;
-}
-
+    max-height: 100vh;
+} 
+/* 
 .carousel-caption{
     position: absolute;
     top: 50%;
     transform: translateY(-80%);
     text-shadow: 1px 1px 10px black;
+} */
+
+.text-block > *{
+    margin:.5em;
 }
