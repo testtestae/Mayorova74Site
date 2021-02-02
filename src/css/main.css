@@ -7,7 +7,7 @@ body{
 }
 
 .sect{
-    height: calc( 100vh - var(--height-header-img) );
+    height: 100vh;
 }
 
 .sect:nth-child(2n){
@@ -19,7 +19,7 @@ body{
 }
 
 .carousel-inner, .carousel-item{
-    height: 100vh;
+    height: 92vh;
 }
 
 .carousel-inner img{
@@ -30,4 +30,8 @@ body{
 
 .text-block > *{
     margin:.5em;
+}
+
+.container{
+    height: 100%;
 }
