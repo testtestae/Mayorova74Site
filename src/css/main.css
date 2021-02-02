@@ -5,21 +5,25 @@ body{
 .navbar-brand img{
     height: var(--height-header-img);
 }
-
+/* 
 .sect{
     height: 100vh;
-}
+} */
 
-.sect:nth-child(2n){
+/* .sect:nth-child(2n){
     background-color: antiquewhite;
 }
 
 .sect:nth-child(2n+1){
     background-color: blueviolet;
-}
+} */
+/* 
+.sect:nth-child(2n) h2{
+    order: 2;
+} */
 
 .carousel-inner, .carousel-item{
-    height: 92vh;
+    height: 100%;
 }
 
 .carousel-inner img{
