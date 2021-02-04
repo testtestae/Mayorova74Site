@@ -1,0 +1,13 @@
+#slides > .upper-layer .logos > .crop{
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+#slides > .upper-layer .logos > .ombudsmen > img {
+    transform: scale(1.75) translate(0px, 18px);
+}
+
+#slides > .upper-layer .logos > .kvantorium > img {
+    transform: scale(2.25) translate(0px, 8px);
+}
