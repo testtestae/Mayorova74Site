@@ -1,13 +1,19 @@
-/* .sect:nth-child(2n){
-    background-color: antiquewhite;
+@import url("./edit_color.css") all;
+
+body{
+    color: var(--first-color);
 }
 
 .sect:nth-child(2n+1){
-    background-color: blueviolet;
-} */
+    background-color: var(--second-color);
+}
+
+.sect:nth-child(2n){
+    background-color: var(--third-color);
+} 
 /* 
-.sect:nth-child(2n) h2{
-    order: 2;
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--first-color);
 } */
 
 body{
@@ -24,7 +30,7 @@ body > div{
 
 .upper-layer{
     position: absolute;
-    background-color: #a1a1a1a4;
+    background-color: var(--third-color-opacity);
     top: 0;
     bottom: 0;
     left: 0;

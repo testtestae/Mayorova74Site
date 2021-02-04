@@ -1,0 +1,44 @@
+body{
+
+    --first-color: #E4EDF2;
+    --second-color: #2E578C;
+    --third-color: #243040;
+    --fourth-color: #463B8C;
+    --fifth-color: #0F9FBF;
+
+    --third-color-opacity: #24304050;
+
+    --text-primary: #E4EDF2;
+    --text-secondary: #2E578C;
+    --text-success: #243040;
+    --text-danger: #463B8C;
+    --text-warning: #0F9FBF;
+    --text-info: ;
+}
+
+.text-primary{
+    color: var(--text-primary);
+}
+
+.text-secondary{
+    color: var(--text-secondary);
+}
+
+.text-success{
+    color: var(--text-success);
+    
+}
+
+.text-danger{
+    color: var(--text-danger);
+    
+}
+
+.text-warning{
+    color: var(--text-warning);
+}
+
+.text-info{
+    color: var(--text-info);
+}
+
