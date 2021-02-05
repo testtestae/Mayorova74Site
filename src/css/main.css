@@ -5,6 +5,12 @@ body{
     word-spacing: 1.25rem;
 }
 
+h4{
+    --margin: 1.5rem;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+}
+
 #navbarResponsive{
     word-spacing: .25rem;
 }
