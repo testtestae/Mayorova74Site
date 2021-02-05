@@ -94,3 +94,9 @@ body > div{
  body{
      font-family: "MK-90";
  }
+
+ .sect > .container {
+     --margin: 2rem;
+     margin-top: var(--margin);
+     margin-bottom: var(--margin);
+ }
