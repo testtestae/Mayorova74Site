@@ -2,6 +2,15 @@
 
 body{
     color: var(--first-color);
+    word-spacing: 1.25rem;
+}
+
+#navbarResponsive{
+    word-spacing: .25rem;
+}
+
+#navbarResponsive > ul > li {
+    margin: 0 .25rem;
 }
 
 .sect:nth-child(2n+1){
@@ -23,6 +32,8 @@ body{
 body > div{
     min-height: 100vh;
 } 
+
+
 
 .navbar-brand img{
     height: var(--height-header-img);
