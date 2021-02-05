@@ -5,6 +5,12 @@ body{
     word-spacing: 1.25rem;
 }
 
+.sect > .container {
+    --margin: 2rem;
+    margin-top: calc(var(--margin) * 2);
+    margin-bottom: var(--margin);
+}
+
 h4{
     --margin: 1.5rem;
     margin-top: var(--margin);
@@ -101,8 +107,3 @@ body > div{
      font-family: "MK-90";
  }
 
- .sect > .container {
-     --margin: 2rem;
-     margin-top: var(--margin);
-     margin-bottom: var(--margin);
- }
