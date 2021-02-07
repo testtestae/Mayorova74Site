@@ -2,11 +2,20 @@
     #slides>.upper-layer>.payload {
         transform: translateY(3rem);
     }
+    #slides > .upper-layer {
+        font-size: .5rem;
+    }
 }
+
+.full-height {
+    height: calc(100vh - var(--height-header-img) - 2.4rem);
+    min-height: initial;
+}
+
 
 .upper-layer {
     position: absolute;
-    background-color: var(--third-color-opacity-50);
+    background-color: var(--color-slides);
     top: 0;
     bottom: 0;
     left: 0;
@@ -20,23 +29,16 @@
     object-fit: cover;
 }
 
-
-.full-height {
-    height: calc(100vh - var(--height-header-img) - 2.4rem);
-    min-height: initial;
+#slides>.upper-layer>.payload>.logos>* {
+    margin: .5em;
 }
-
 
 #slides>.upper-layer img {
-    max-height: 7rem;
-}
-
-#slides>.upper-layer>.payload>.logos>* {
-    margin: .5rem;
+    max-height: 13em;
 }
 
 #slides>.upper-layer>.payload>.text>* {
-    margin: 1.5em;
+    margin: 1em;
 }
 
 #slides h3,
@@ -44,6 +46,19 @@
     background-color: var(--fourth-color-opacity-c0);
 }
 
-#slides h3 {
-    margin-left: 0 !important;
+#slides>.upper-layer img {
+    opacity: 0.75;
 }
+
+.omb-logo{
+    border-radius: .5em;
+}
+
+/* #slides h3 {
+    margin-left: 0 !important;
+    font-size: 2em;
+}
+
+#slides h6 {
+    font-size: 1.125em;
+} */
