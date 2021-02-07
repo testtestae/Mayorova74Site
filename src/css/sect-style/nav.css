@@ -1,0 +1,11 @@
+#navbarResponsive{
+    word-spacing: .25rem;
+}
+
+#navbarResponsive > ul > li {
+    margin: 0 .25rem;
+}
+
+.navbar-brand img{
+    height: var(--height-header-img);
+}

@@ -1,0 +1,49 @@
+@media (max-width: 991.98px) {
+    #slides>.upper-layer>.payload {
+        transform: translateY(3rem);
+    }
+}
+
+.upper-layer {
+    position: absolute;
+    background-color: var(--third-color-opacity-50);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.full-height {
+    height: calc(100vh - var(--height-header-img) - 2.4rem);
+    min-height: initial;
+}
+
+
+#slides>.upper-layer img {
+    max-height: 7rem;
+}
+
+#slides>.upper-layer>.payload>.logos>* {
+    margin: .5rem;
+}
+
+#slides>.upper-layer>.payload>.text>* {
+    margin: 1.5em;
+}
+
+#slides h3,
+#slides h6 {
+    background-color: var(--fourth-color-opacity-c0);
+}
+
+#slides h3 {
+    margin-left: 0 !important;
+}

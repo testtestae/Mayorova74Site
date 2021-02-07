@@ -1,14 +1,13 @@
 @import url("./edit_color.css") all;
 
-body{
-    color: var(--first-color);
-    word-spacing: 1.25rem;
-}
+@import url("./sect-style/slides.css") all;
+@import url("./sect-style/nav.css") all;
 
-.sect > .container {
-    --margin: 2rem;
-    margin-top: calc(var(--margin) * 2);
-    margin-bottom: var(--margin);
+@font-face{
+    font-family: "MK-90";
+    src: url("../fonts/MK-90.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 h4{
@@ -17,12 +16,21 @@ h4{
     margin-bottom: var(--margin);
 }
 
-#navbarResponsive{
-    word-spacing: .25rem;
+body{
+    color: var(--first-color);
+    word-spacing: 1.25rem;
+    font-family: "MK-90";
+    --height-header-img: 3em;
 }
 
-#navbarResponsive > ul > li {
-    margin: 0 .25rem;
+body > div{
+    min-height: 100vh;
+} 
+
+.sect > .container {
+    --margin: 2rem;
+    margin-top: calc(var(--margin) * 2);
+    margin-bottom: var(--margin);
 }
 
 .sect:nth-child(2n+1){
@@ -32,78 +40,7 @@ h4{
 .sect:nth-child(2n){
     background-color: var(--third-color);
 } 
-/* 
-h1, h2, h3, h4, h5, h6, p {
-    color: var(--first-color);
-} */
-
-body{
-    --height-header-img: 3em;
-}
-
-body > div{
-    min-height: 100vh;
-} 
-
-
-
-.navbar-brand img{
-    height: var(--height-header-img);
-}
-
-.upper-layer{
-    position: absolute;
-    background-color: var(--third-color-opacity);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
-
-
-.carousel-inner img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} 
 
 .text-block > *{
     margin:.75em;
 }
-
-.full-height{
-    height: calc(100vh - var(--height-header-img) - 2.4rem);
-    min-height: initial;
-}
-
-#slides > .upper-layer img{
-    max-height: 7rem;
-}
-
-#slides > .upper-layer > .payload > .logos > * {
-    margin: .5rem;
-}
-
-#slides > .upper-layer > .payload > .text > * {
-    margin: 1.5em;
-}
-
-@media (max-width: 991.98px) { 
-    #slides > .upper-layer > .payload {
-        transform: translateY(3rem);
-    }
- } 
-
- @font-face{
-     font-family: "MK-90";
-     src: url("../fonts/MK-90.ttf") format("truetype");
-     font-style: normal;
-     font-weight: normal;
- }
-
- body{
-     font-family: "MK-90";
- }
-
