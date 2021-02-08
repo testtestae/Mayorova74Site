@@ -62,3 +62,9 @@
 #slides h6 {
     font-size: 1.125em;
 } */
+
+#slides .hashtag {
+    background-color: var(--hashtag-color)!important;
+    border-radius: .25em;
+    padding: .5em;
+}
