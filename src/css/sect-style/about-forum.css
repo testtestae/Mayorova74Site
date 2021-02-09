@@ -24,8 +24,8 @@
 
 @media (max-width: 1200px) {
     #about-forum .video-container iframe {
-        width: calc(560px * 1.2);
-        height: calc(315px * 1.2);
+        width: calc(560px * 1.1);
+        height: calc(315px * 1.1);
     }
 }
 

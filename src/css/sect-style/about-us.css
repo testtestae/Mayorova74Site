@@ -1,0 +1,13 @@
+#about-us .partner-logo-container{
+    background-color: var(--partner-logo-container);
+    margin: .5em;
+    padding: .5em;
+    border-radius: .25em;
+    max-height: 9em;
+}
+
+@media (max-width: 450px) {
+    #about-us .partner-logo-container{
+        max-height: 7em;
+    }
+}

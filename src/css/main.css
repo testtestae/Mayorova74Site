@@ -4,6 +4,7 @@
 @import url("./sect-style/nav.css") all;
 @import url("./sect-style/become-member-forum.css") all;
 @import url("./sect-style/about-forum.css") all;
+@import url("./sect-style/about-us.css") all;
 
 @font-face{
     font-family: "MK-90";
@@ -48,6 +49,9 @@ body{
     body{
         font-size: .4rem;
     }
+    h4{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 250px) {
@@ -57,12 +61,18 @@ body{
     h2 {
         font-size: 3.5rem;
     }
+    h4{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 220px) {
-    h2 {
-        font-size: 1.5rem;
+    body{
+        font-size: .3rem;
     }
+    /* h2 {
+        font-size: 1.5rem;
+    } */
 }
 
 h4{
@@ -92,4 +102,7 @@ body > div{
 .text-block > *{
     margin:.75em;
 }
-
+/* 
+button {
+    display: inline!important;
+} */
