@@ -56,7 +56,7 @@
 
 /* #slides h3 {
     margin-left: 0 !important;
-    font-size: 2em;
+    font-size: 2em; 
 }
 
 #slides h6 {
@@ -67,4 +67,17 @@
     background-color: var(--hashtag-color)!important;
     border-radius: .25em;
     padding: .5em;
+}
+
+#slides .carousel-caption {
+    left: 1em;
+    max-width: 65%;
+    font-family: Arial;
+    word-spacing: .5em;
+}
+
+#slides .carousel-caption *{
+    display: inline;
+    float: left;
+    
 }

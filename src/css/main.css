@@ -12,17 +12,18 @@
     font-weight: normal;
 }
 
-h4{
-    --margin: 1.5em;
-    margin-top: var(--margin);
-    margin-bottom: var(--margin);
-}
-
 body{
     color: var(--first-color);
     word-spacing: 1.25em;
     font-family: "MK-90";
     --height-header-img: 3em;
+}
+
+
+h4{
+    --margin: 1.5em;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
 }
 
 body > div{
