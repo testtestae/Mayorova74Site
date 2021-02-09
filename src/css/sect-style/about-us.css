@@ -5,9 +5,3 @@
     border-radius: .25em;
     max-height: 9em;
 }
-
-@media (max-width: 450px) {
-    #about-us .partner-logo-container{
-        max-height: 7em;
-    }
-}
