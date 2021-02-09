@@ -6,6 +6,10 @@
     margin: 0 .25rem;
 }
 
-.navbar-brand img{
+.navbar img{
     height: var(--height-header-img);
+}
+
+#navbarResponsive .nav-links{
+    margin: 0!important;
 }

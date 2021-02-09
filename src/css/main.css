@@ -2,6 +2,8 @@
 
 @import url("./sect-style/slides.css") all;
 @import url("./sect-style/nav.css") all;
+@import url("./sect-style/become-member-forum.css") all;
+@import url("./sect-style/about-forum.css") all;
 
 @font-face{
     font-family: "MK-90";
