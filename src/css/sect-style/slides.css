@@ -2,10 +2,11 @@
     #slides>.upper-layer>.payload {
         transform: translateY(3rem);
     }
-    #slides > .upper-layer {
-        font-size: .5rem;
-    }
 }
+/* 
+#slides > .upper-layer {
+    font-size: 5em;
+} */
 
 .full-height {
     height: calc(100vh - var(--height-header-img) - 2.4rem);
@@ -70,7 +71,7 @@
 }
 
 #slides .carousel-caption {
-    left: 1em;
+    /* left: 1em; */
     max-width: 65%;
     font-family: Arial;
     word-spacing: .5em;
@@ -78,6 +79,16 @@
 
 #slides .carousel-caption *{
     display: inline;
-    float: left;
-    
+    /* float: left; */
 }
+
+#slides .carousel-item h1, 
+#slides .carousel-item h2, 
+#slides .carousel-item h3, 
+#slides .carousel-item h4, 
+#slides .carousel-item h5, 
+#slides .carousel-item h6, 
+#slides .carousel-item p{
+    font-size: 2em;
+}
+

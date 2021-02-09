@@ -17,8 +17,53 @@ body{
     word-spacing: 1.25em;
     font-family: "MK-90";
     --height-header-img: 3em;
+    font-size: 1rem;
 }
 
+@media (max-width: 600px) {
+    body{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    body{
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 450px) {
+    body{
+        font-size: .65rem;
+    }
+}
+
+@media (max-width: 340px) {
+    body{
+        font-size: .55rem;
+    }
+}
+
+@media (max-width: 320px) {
+    body{
+        font-size: .4rem;
+    }
+}
+
+@media (max-width: 250px) {
+    body{
+        font-size: .5rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 220px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
 
 h4{
     --margin: 1.5em;
@@ -47,3 +92,4 @@ body > div{
 .text-block > *{
     margin:.75em;
 }
+
