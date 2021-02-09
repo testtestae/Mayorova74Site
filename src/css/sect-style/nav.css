@@ -14,14 +14,3 @@
     margin: 0!important;
 }
 
-@media (max-width: 576px) {
-    .navbar img{
-        height: calc( var(--height-header-img) - 1.125em);
-    }
-}
-
-@media (max-width: 320px) {
-    .navbar img{
-        height: calc( var(--height-header-img) - 1.75em);
-    }
-}
